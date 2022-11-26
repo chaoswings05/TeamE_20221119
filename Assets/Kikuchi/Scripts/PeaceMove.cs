@@ -4,19 +4,39 @@ using UnityEngine;
 
 public class PeaceMove : MonoBehaviour
 {
+    private Vector3 firstPosition;
+
+
+    void Start()
+    {
+        firstPosition = transform.position;
+    }
+
+
     void OnMouseDrag()
     {
 
-            Debug.Log("‚Â‚©‚ñ‚Å‚é");
-            //ƒ}ƒEƒX‚ÌÀ•W‚ğæ“¾‚µ‚ÄƒXƒNƒŠ[ƒ“À•W‚ğXV
+            Debug.Log("æ´ã‚“ã "); //å‹•ä½œç¢ºèªã€€æ¸ˆ
+
             Vector3 thisPosition = Input.mousePosition;
-            //ƒXƒNƒŠ[ƒ“À•W¨ƒ[ƒ‹ƒhÀ•W
+
             Vector3 worldPosition = Camera.main.ScreenToWorldPoint(thisPosition);
             worldPosition.z = 0f;
 
             this.transform.position = worldPosition;
         
     }
+
+    void OnMouseUp()
+    {
+        Debug.Log("é›¢ã—ãŸã€‚");ã€€// å‹•ä½œç¢ºèªã€€æ¸ˆ
+        this.transform.position = firstPosition;
+    }
+
+    
+
+
+
 }
 
 
