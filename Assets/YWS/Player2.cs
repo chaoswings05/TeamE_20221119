@@ -10,7 +10,7 @@ public class Player2 : SingletonMonoBehaviour<Player2>
     [SerializeField] private Text cursor = null;
     public int watchingNum = 0;
     public int cursorPosition = 0;
-    public bool IsWordSelect = false;
+    public bool IsWordSelect = true;
     public bool IsPlateSelect = false;
     private bool StateReady = false;
     private int searchDistance = 1;
@@ -227,6 +227,7 @@ public class Player2 : SingletonMonoBehaviour<Player2>
             GameDirector.Instance.nextPlayer = 1;
             Timer.Instance.TimerReset();
             IsPlateSelect = false;
+            IsWordSelect = true;
         }
     }
 }

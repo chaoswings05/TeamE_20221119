@@ -7,7 +7,7 @@ public class WordGenerator : MonoBehaviour
     [SerializeField, Header("プレイヤー1の生成位置")] private Transform P1GenPoint = null;
     [SerializeField, Header("プレイヤー2の生成位置")] private Transform P2GenPoint = null;
     [SerializeField, Header("生成するプレハブ")] private GameObject wordPrefabs = null;
-    private string[] wordArray = new string[71] 
+    private string[] wordArray = new string[72]
     {"あ","い","う","え","お",
      "か","き","く","け","こ",
      "が","ぎ","ぐ","げ","ご",
@@ -22,7 +22,8 @@ public class WordGenerator : MonoBehaviour
      "ま","み","む","め","も",
      "や",     "ゆ",     "よ",
      "ら","り","る","れ","ろ",
-     "わ",     "を",     "ん"};
+     "わ",     "を",     "ん",
+     "ー"};
 
     // Start is called before the first frame update
     void Start()

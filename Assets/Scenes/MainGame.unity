@@ -971,6 +971,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timer: {fileID: 1480998124}
   gameState: 0
+  nextPlayer: 1
   watchingPlate: {fileID: 0}
   watchingPointX: 0
   watchingPointZ: 0
@@ -1044,7 +1045,7 @@ MonoBehaviour:
   cursor: {fileID: 1171884341}
   watchingNum: 0
   cursorPosition: 0
-  IsWordSelect: 0
+  IsWordSelect: 1
   IsPlateSelect: 0
 --- !u!1 &889604932
 GameObject:
@@ -1893,7 +1894,7 @@ MonoBehaviour:
   cursor: {fileID: 1090901378}
   watchingNum: 0
   cursorPosition: 0
-  IsWordSelect: 0
+  IsWordSelect: 1
   IsPlateSelect: 0
 --- !u!1 &1548652656
 GameObject:
