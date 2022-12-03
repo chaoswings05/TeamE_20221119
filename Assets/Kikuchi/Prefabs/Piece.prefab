@@ -169,7 +169,7 @@ GameObject:
   - component: {fileID: 155217016068614776}
   - component: {fileID: 7286957862898993589}
   m_Layer: 5
-  m_Name: Peace
+  m_Name: Piece
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

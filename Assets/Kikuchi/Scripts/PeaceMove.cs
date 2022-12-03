@@ -33,9 +33,13 @@ public class PeaceMove : MonoBehaviour
         this.transform.position = firstPosition;
     }
 
-    
-
-
+    void OnMouseUpAsButton()//オブジェクト上で左ボタンをアップした時だけ呼ばれる。
+    {
+        //if ()
+       // {
+            //なんらかの処理でマウスのボタンをアップしたときにマップのはまる位置だったらはまってそこに固定されるようにする？
+       // }
+    }
 
 }
 
