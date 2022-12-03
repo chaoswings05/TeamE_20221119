@@ -298,6 +298,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mapGen: {fileID: 703265770}
+  mapSetting: {fileID: 703265769}
 --- !u!1 &1795717563
 GameObject:
   m_ObjectHideFlags: 0

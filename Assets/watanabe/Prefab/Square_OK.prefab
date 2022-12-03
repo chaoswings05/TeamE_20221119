@@ -97,7 +97,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 037a2db5ae32f864ea3d9a57059e2f14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Placeable: 0
+  Placeable: 1
   num_count: 0
   x_pos: 0
   y_pos: 0
